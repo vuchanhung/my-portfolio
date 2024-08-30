@@ -1,0 +1,64 @@
+.punchlines{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:35px;
+}
+
+.punchlines img{
+    margin-top:150px;
+}
+
+.punchlines h1{
+    text-align: center;
+    width: 70%;
+    font-size: 90px;
+    font-weight: 600;
+}
+
+.punchlines h1 span{
+    background: linear-gradient(267deg, #402565 0.36%, #30BE96 102.06%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.punchlines p{
+    width: 50%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.punchline-action{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.punchline-connect{
+    padding: 25px 45px;
+    border-radius: 50px;
+    background: linear-gradient(267deg, #402565 0.36%, #30BE96 102.06%);
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.punchline-resume{
+    padding: 25px 75px;
+    border-radius: 50px;
+    border: 2px solid#FFF;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.punchline-connect:hover{
+    transform: scale(1.05);
+}
+
+.punchline-resume:hover{
+    transform: scale(1.05);
+}
