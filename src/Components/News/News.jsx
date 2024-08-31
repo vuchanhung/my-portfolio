@@ -3,7 +3,7 @@ import news_data from "../../assets/news_data"
 import arrow_icon from "../../assets/arrow_icon.svg"
 const News = () => {
   return (
-    <div className="news">
+    <div id="news_page" className="news">
       <div className="news-title">
         <h1>My News</h1>
         {/* <img src={theme_pattern} alt=''/> */}

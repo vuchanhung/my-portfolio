@@ -3,7 +3,7 @@ import achieve_data from "../../assets/news_data"
 
 const Achievements = () => {
   return (
-    <div className='achieve'>
+    <div id='achieve' className='achieve'>
         <div className='achieve-title'>
             <h1>Achievements</h1>
         </div>
